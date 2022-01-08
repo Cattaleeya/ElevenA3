@@ -52,6 +52,58 @@ nav {
   border-bottom: 1px solid #00305a;
 }
 
+/* Top Section - Home Page */
+
+.top-section {
+  background-color: #00305a;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.top-title {
+    margin-left: 15px;
+    font-style: italic;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.img-holder {
+  text-align: center;
+}
+
+.img-placeholder {
+  display: inline-block;
+  background: lightgrey;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+/* Profile Section */
+
+.profile-section {
+  margin: 5px 20px 50px 5px;
+}
+
+.img-placeholder-small {
+  float: left;
+  background-color: lightgrey;
+  width: 125px;
+  height: 125px;
+  margin: 1px 15px;
+}
+
+.profile-name {
+  font-weight: bold;
+  font-size: 15pt;
+  margin-bottom: 1px;
+}
+.pronouns-text {
+  font-size: 10pt;
+  font-weight: normal;
+  font-style: italic;
+}
+
 /* Main Content Wrapper */
 
 .main-content {
