@@ -9,8 +9,7 @@ body {
 nav {
   padding: 20px 5%;
   background-color: #18e9cc;
-  background-image: linear-gradient(
-345deg, #00305a, transparent);
+  background-image: linear-gradient(345deg, #00305a, transparent);
 }
 .navbar-title {
   text-align: left;
@@ -49,10 +48,14 @@ nav {
   border-bottom: 1px solid #00305a;
 }
 
+.active {
+  border-bottom: 1px solid #00305a;
+}
+
 /* Main Content Wrapper */
 
 .main-content {
-  padding: 20px 5%;
+  padding: 20px 10%;
 }
 
 /* Section Divs */
@@ -60,6 +63,8 @@ nav {
 .section {
   padding: 10px 20px;
 }
+
+
 
 /* Table styling */
 
@@ -70,6 +75,38 @@ table {
 th,td {
   padding: 5px;
   border: 1px solid black;
+}
+
+thead {
+    background-color: #00305a;
+    color: white;
+}
+
+.light-bg {
+  background: ghostwhite;
+}
+
+.dark-bg {
+    background-color: #eeebf1;
+}
+
+.center-align {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inline-table {
+  display: inline-table;
+}
+
+.inline-table-1 {
+  width: 35%;
+}
+.inline-table-2 {
+  width: 25%
+}
+.inline-table-3{
+  width: 35%;
 }
 
 /* Footer Section */
