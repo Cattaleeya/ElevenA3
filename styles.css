@@ -251,6 +251,7 @@ thead {
 
 .ml img {
   display: inline-block;
+  max-width: 50%;
 }
 
 /* Footer Section */
