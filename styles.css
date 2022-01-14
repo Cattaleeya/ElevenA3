@@ -200,6 +200,13 @@ nav {
     line-height: normal;
 }
 
+/* image with width 500px and 20px margin all around */
+
+.img-500 {
+  width: 500px;
+  margin: 20px;
+}
+
 /* Table styling */
 
 table {
