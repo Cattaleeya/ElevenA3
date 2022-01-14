@@ -278,8 +278,10 @@ thead {
    padding: 0 10px 0 0; 
   }
 
-
-
+.img-txt {
+  text-align: center;
+  padding: 10px 20px;
+}
 
 
 
