@@ -256,27 +256,27 @@ thead {
 }
 
 /* Machine Learning */
-.ml {
+/*.ml {
 
   display: flex;
   flex-wrap: wrap;
-  /*flex-basis: 100%;
-  gap: 2px;*/
-}
+  flex-basis: 100%;
+  gap: 2px;
+}*/
 
 .ml-img {
-     width:300px;
+     width:30%;
     backgound: red;
   padding:10px;
     margin-bottom: 100px;
   }
 
 .ml img {
-  display: inline-block;
-  width:100%;
+  float: left;
+  width:300px;
   border: 2px solid black;
   border-radius: 20px;
-    object-fit: cover;
+   padding 0 10px 0 0; 
   }
 
 
