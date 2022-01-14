@@ -252,16 +252,18 @@ thead {
 }
 
 .ml-img {
-     width:25%;
-    backgound: white;
+     width:300px;
+    backgound: red;
   padding:10px;
     margin-bottom: 100px;
   }
 
 .ml img {
   display: inline-block;
+  width:100%;
   border: 2px solid black;
   border-radius: 20px:
+    object-fit: cover;
   }
 
 
