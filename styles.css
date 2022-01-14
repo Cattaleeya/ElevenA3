@@ -262,7 +262,7 @@ thead {
   display: inline-block;
   width:100%;
   border: 2px solid black;
-  border-radius: 20px:
+  border-radius: 20px;
     object-fit: cover;
   }
 
