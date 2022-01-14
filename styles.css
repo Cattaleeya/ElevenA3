@@ -2,7 +2,6 @@ body {
   margin: 0px;
   background-color: #eeeff1;
   font-family: sans-serif;
-  color: #262626;
 }
 
 /* Global headings */
@@ -24,6 +23,10 @@ h4 {
 
 .align-left {
   text-align: left;
+}
+
+.align-right {
+  text-align: right;
 }
 
 /* Navagation Menu */
@@ -113,7 +116,7 @@ nav {
 
 }
 
-/* Add a grey background color to dropdown links on hover */
+/* Add a background color to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
 }
@@ -150,6 +153,21 @@ nav {
   margin: 10px;
 }
 
+/* horizontal line styles */
+
+.solid-blue {
+    border-top: 2px solid #00305a;
+}
+/* Home Page Section */
+
+.home-section {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38pt;
+    font-weight: 600;
+    text-align: center;
+    padding: 10%;
+}
+
 /* Profile Section */
 
 .profile-section {
@@ -168,11 +186,27 @@ nav {
   font-weight: bold;
   font-size: 15pt;
   margin-bottom: 1px;
+  color: #00305a;
 }
 .pronouns-text {
   font-size: 10pt;
   font-weight: normal;
   font-style: italic;
+  color: #5e5e5e;
+}
+
+.profile-link {
+  text-align: right;
+  font-weight: bold;
+}
+
+.profile-link a {
+  text-decoration: none;
+  color: #00305a;
+}
+
+.profile-link a:hover {
+  text-decoration: underline;
 }
 
 /* Main Content Wrapper */
@@ -274,8 +308,8 @@ thead {
 .ml-img img {
  max-width: 100%;
   max-height: 100%;
-  
-   
+
+
   }
 
 .img-txt {
