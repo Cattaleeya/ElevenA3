@@ -251,7 +251,9 @@ thead {
 }
 
 .ml-img {
+     width:25%;
     backgound: white;
+  padding:10px;
     margin-bottom: 100px;
   }
 
@@ -264,8 +266,6 @@ thead {
   
   
   
- /* width: 400px;
-  height: auto;*/
 
 
 
