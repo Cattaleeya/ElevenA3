@@ -5,6 +5,27 @@ body {
   color: #262626;
 }
 
+/* Global headings */
+
+h4 {
+    margin-bottom: -10px;
+    margin-top: 20px;
+}
+
+/* Text alignments as classes */
+
+.justify {
+  text-align: justify;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
 /* Navagation Menu */
 nav {
   padding: 20px 5%;
@@ -166,7 +187,15 @@ nav {
   padding: 10px 20px;
 }
 
+.sub-section {
+  padding: 1px 65px;
+}
 
+/* Reference section */
+
+.reference-block {
+  font-size: 10pt;
+}
 
 /* Table styling */
 
