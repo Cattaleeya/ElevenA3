@@ -247,17 +247,24 @@ thead {
   display: flex;
   flex-wrap: wrap;
   /*flex-basis: 100%;
-  gap: 2px;
-}*/
+  gap: 2px;*/
+}
 
 .ml img {
   display: inline-block;
-  bacground: white;
-  margin-bottom: 1.5rem;
   border: 2px solid black;
+  }
+  
+  .ml-img {
+    backgound: white;
+    margin-bottom: 20px;
+  }
+  
+  
  /* width: 400px;
   height: auto;*/
-}
+
+
 
 /* Footer Section */
 footer{
