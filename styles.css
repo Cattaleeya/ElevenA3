@@ -242,6 +242,12 @@ thead {
 }
 
 /* Footer Section */
+.ml {
+  display: flex;
+  flex-basis: 100%;
+}
+
+/* Footer Section */
 footer{
   color: white;
   background-color: #00305a;
