@@ -265,12 +265,12 @@ thead {
 }*/
 
 .ml-img {
-  position: absolute;
+ 
   float: left;
     max-width:300px;
    padding-right: 15px;
     margin-bottom: 10px;
-  top: 20px;
+  
   }
 
 .ml-img img {
