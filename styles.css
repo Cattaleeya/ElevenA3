@@ -265,22 +265,23 @@ thead {
 }*/
 
 .ml-img {
-     width:30%;
-   
+  float: left;
+    max-width:300px;
+   padding-right: 15px;
     margin-bottom: 10px;
   }
 
 .ml-img img {
-  float: left;
-  width:300px;
+ max-width: 100%;
+  max-height: 100%;
   
-  border-radius: 20px;
-   padding: 0 10px 0 0; 
+   
   }
 
 .img-txt {
   text-align: center;
-  padding: 10px 20px;
+  padding-bottom: 20px;
+  font-size: 0.8rem;
 }
 
 
