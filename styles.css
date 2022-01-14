@@ -241,10 +241,14 @@ thead {
   width: 35%;
 }
 
-/* Footer Section */
+/* Machine Learning */
 .ml {
   display: flex;
   flex-basis: 100%;
+}
+
+.ml img {
+  display: inline-block;
 }
 
 /* Footer Section */
