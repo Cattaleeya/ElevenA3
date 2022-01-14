@@ -195,8 +195,9 @@ nav {
 /* Reference section */
 
 .reference-block {
-  font-size: 10pt;
-  text-align: left;
+    font-size: 9pt;
+    text-align: left;
+    line-height: normal;
 }
 
 /* Table styling */
