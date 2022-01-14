@@ -244,7 +244,9 @@ thead {
 /* Machine Learning */
 .ml {
   display: flex;
+  flex-wrap: wrap;
   flex-basis: 100%;
+  gap: 2rem;
 }
 
 .ml img {
