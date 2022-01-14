@@ -243,11 +243,12 @@ thead {
 
 /* Machine Learning */
 .ml {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  flex-basis: 100%;
+  /*flex-basis: 100%;
   gap: 2px;
-}
+}*/
 
 .ml img {
   display: inline-block;
