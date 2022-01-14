@@ -268,7 +268,7 @@ thead {
      width:30%;
     backgound: red;
   padding:10px;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
   }
 
 .ml-img img {
@@ -276,7 +276,7 @@ thead {
   width:300px;
   border: 2px solid black;
   border-radius: 20px;
-   padding 0 10px 0 0; 
+   padding: 0 10px 0 0; 
   }
 
 
