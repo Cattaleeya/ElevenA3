@@ -250,15 +250,18 @@ thead {
   gap: 2px;*/
 }
 
+.ml-img {
+    backgound: white;
+    margin-bottom: 100px;
+  }
+
 .ml img {
   display: inline-block;
   border: 2px solid black;
+  border-radius: 20px:
   }
   
-  .ml-img {
-    backgound: white;
-    margin-bottom: 20px;
-  }
+  
   
   
  /* width: 400px;
