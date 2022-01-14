@@ -246,12 +246,12 @@ thead {
   display: flex;
   flex-wrap: wrap;
   flex-basis: 100%;
-  gap: 2rem;
+  gap: 20px;
 }
 
 .ml img {
   display: inline-block;
-  max-width: 50%;
+  width: 10%;
 }
 
 /* Footer Section */
