@@ -200,11 +200,16 @@ nav {
     line-height: normal;
 }
 
-/* image with width 500px and 20px margin all around */
+/* image styling */
 
 .img-500 {
   width: 500px;
-  margin: 20px;
+  margin: 20px 20px 1px 20px;
+}
+
+.img-caption {
+  font-size: 9pt;
+  margin-top: -3px;
 }
 
 /* Table styling */
