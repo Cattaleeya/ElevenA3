@@ -196,6 +196,7 @@ nav {
 
 .reference-block {
   font-size: 10pt;
+  text-align: left;
 }
 
 /* Table styling */
@@ -239,21 +240,6 @@ thead {
 }
 .inline-table-3{
   width: 35%;
-}
-
-/* Machine Learning */
-.ml {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  /*flex-basis: 100%;
-  gap: 2px;
-}*/
-
-.ml img {
-  display: inline-block;
- /* width: 400px;
-  height: auto;*/
 }
 
 /* Footer Section */
