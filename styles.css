@@ -299,10 +299,12 @@ thead {
 }*/
 
 .ml-img {
+ 
   float: left;
     max-width:300px;
    padding-right: 15px;
     margin-bottom: 10px;
+  
   }
 
 .ml-img img {
