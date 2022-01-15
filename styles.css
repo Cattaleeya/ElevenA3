@@ -318,14 +318,15 @@ thead {
 }
 
 .p-img {
-  float:right
+  float:right;
 }
 
 .p-img img {
-  width:30%
+  width:40%;
 }
 
 .p-img img:hover{
+  border-radius: 20px;
   border: 2px solid black;
 }
 
