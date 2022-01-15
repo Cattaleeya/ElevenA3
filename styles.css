@@ -128,6 +128,7 @@ nav {
 
 /* Top Section - Home Page */
 
+
 .top-section {
   background-color: #00305a;
   color: white;
@@ -137,8 +138,8 @@ nav {
 .top-title {
     margin-left: 15px;
     font-style: italic;
-    letter-spacing: 4px;
-    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: -10px;
 }
 
 .img-holder {
@@ -160,12 +161,20 @@ nav {
 }
 /* Home Page Section */
 
+.home-content {
+    padding: 20px 10%;
+    line-height: 22px;
+    background-color: #18e9cc;
+    background-image: linear-gradient(345deg, #00305a, transparent);
+    color: white;
+}
+
 .home-section {
     font-family: 'Montserrat', sans-serif;
     font-size: 38pt;
     font-weight: 600;
     text-align: center;
-    padding: 10%;
+    padding: 5%;
 }
 
 /* Profile Section */
@@ -299,17 +308,17 @@ thead {
 }*/
 
 .ml-img {
- 
+
   float: left;
     max-width:300px;
    padding-right: 15px;
     margin-bottom: 10px;
-  
+
   }
 
 .ml-img img {
-  
-  
+
+
  max-width: 100%;
   max-height: 100%;
 
