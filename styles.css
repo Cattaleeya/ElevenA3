@@ -319,6 +319,7 @@ thead {
 
 .p-img {
   display:flex;
+  flex-wrap: wrap;
 }
 
 .p-img img {
