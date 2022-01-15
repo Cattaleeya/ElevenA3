@@ -321,7 +321,7 @@ thead {
   float:right
 }
 
-.p-img a:hover {
+.p-img a:hover img{
   border: 2px solid black;
 }
 
