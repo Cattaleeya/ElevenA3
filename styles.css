@@ -318,15 +318,15 @@ thead {
 }
 
 .p-img {
-  float:right;
+  display:flex;
 }
 
 .p-img img {
   width:40%;
+  border-radius:20px;
 }
 
 .p-img img:hover{
-  border-radius: 20px;
   border: 2px solid black;
 }
 
