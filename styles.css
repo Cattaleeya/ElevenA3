@@ -317,7 +317,9 @@ thead {
   font-size: 0.8rem;
 }
 
-
+.p-img a:hover {
+  border: 2px solid black;
+}
 
 
 /* Footer Section */
