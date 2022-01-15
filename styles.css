@@ -324,7 +324,7 @@ thead {
   border-radius:20px;
 }
 
-.p-img img:hover{
+.p-img:hover{
   border: 1px solid black;
 }
 
