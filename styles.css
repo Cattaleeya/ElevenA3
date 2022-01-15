@@ -317,18 +317,15 @@ thead {
   font-size: 0.8rem;
 }
 
-.p-img {
-  display:flex;
-  flex-wrap: wrap;
-}
 
+/* project */
 .p-img img {
   width:40%;
   border-radius:20px;
 }
 
 .p-img img:hover{
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 
