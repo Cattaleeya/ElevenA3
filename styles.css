@@ -352,17 +352,15 @@ thead {
   font-size: 0.8rem;
 }
 
+
+/* project */
 .p-img {
-  float:right;
-}
-
-.p-img img {
   width:40%;
+  border-radius:20px;
 }
 
-.p-img img:hover{
-  border-radius: 20px;
-  border: 2px solid black;
+.p-img:hover{
+  border: 1px solid black;
 }
 
 
