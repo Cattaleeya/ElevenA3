@@ -9,76 +9,102 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
+
   <body>
 
-    <nav>
-      <a class="navbar-title" href="index.html">eleven</a>
-      <div class="navbar">
+        <nav>
+            
+            <a class="navbar-title" href="index.html">eleven<img class="logo-img" src="images/logo.png" alt=""></a>
+            
+            <div class="navbar">
+            <a class="active"href="index.html">Home</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Team Profile
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="about_us.html">About Us</a>
+                        <a href="team_personality_profile.html">Team Personality Profile</a>
+                        <a href="ideal_jobs.html">Ideal Jobs</a>
+                    </div>
+                </div>
 
-      <a class="active"href="index.html">Home</a>
-      <div class="dropdown">
-        <button class="dropbtn">Team Profile
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="about_us.html">About Us</a>
-          <a href="team_personality_profile.html">Team Personality Profile</a>
-          <a href="ideal_jobs.html">Ideal Jobs</a>
+                <a href="project.html">Project</a>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Jobs
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="app_developer.html">App Developer</a>
+                        <a href="finance_officer.html">Finance Officer</a>
+                        <a href="mech_engineer.html">Mechanical Engineer</a>
+                        <a href="ps_tester.html">Product & System Tester</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="home-content">
+
+            <!--<div class="section">-->
+  
+                <div class="home-section">
+                    <p class="hero-tiny-title"><strong>NEW </strong>FROM ELEVEN</p>
+                    <p class="hero-title">Introducing:<br>Water Me Plz</p>
+                    <p class="hero-subtitle">The automated watering system for busy Plant Parents</p>
+                    <div class="btn-row">
+                        <a class="cta-btn" href="project.html">Learn more</a>
+                    </div>
+                </div>
+                <!--<div class="hero-img-section">
+                    <img src="images/watermeplz.png" alt="Water Me Plz app">
+                </div>-->
+        
+            <!--</div>-->
         </div>
-      </div>
-     
-      <a href="project.html">Project</a>
-    </div>
+  
 
-    </nav>
-    <div class="top-section">
-      <div class="section">
-        <h3 class="top-title">Team Eleven</h3>
-        <div class="img-holder">
-          <div class="img-placeholder"><img src="images/member_catt.jpg" alt="profile picture of catt" width="200" height="200"></div>
+        <div class="top-section">
 
-          <div class="img-placeholder"><img src="images/member_liz.jpg" alt="profile picture of Liz" width="200" height="200"></div>
+            <div class="team-container">
+                <h3 class="top-title">Team Eleven</h3>
 
-          <div class="img-placeholder"><img src="images/Member_Mark.jpg" alt="profile picture of Mark" width="200" height="200"></div>
+                <div class="img-holder">
+                    <div class="img-placeholder"><img src="images/member_catt.jpg" alt="profile picture of catt" >
+                        <p>Catt - Product Design</p>
+                    </div>
 
-          <div class="img-placeholder"><img src="images/avatar.png" alt="profile picture" /></div>
+                    <div class="img-placeholder"><img src="images/member_liz.jpg" alt="profile picture of Liz" >
+                        <p>Liz - Project Manager</p>
+                    </div>
 
-          <div class="img-placeholder"><img src="images/member_nat.jpg" alt="profile picture of nat" width="200" height="200"></div>
+                    <div class="img-placeholder"><img src="images/Member_Mark.jpg" alt="profile picture of Mark">
+                        <p>Mark - Media & Marketing</p>
+                    </div>
 
-          <div class="img-placeholder"><img src="images/member_sam.jpg" alt="profile picture of sam" width="200" height="200"></div>
+                    <div class="img-placeholder"><img src="images/avatar.png" alt="profile picture" />
+                        <p>Max - Sales</p>
+                    </div>
 
-        </div>
-      </div>
+                    <div class="img-placeholder"><img src="images/member_nat.jpg" alt="profile picture of nat" >
+                        <p>Nat - Tech Support</p>
+                    </div>
 
-    </div>
-    <div class="home-content">
-
-      <div class="section">
-
-        <div class="home-section">
-          <p class="hero-tiny-title">NEW FROM ELEVEN</p>
-          <p class="hero-title">Introducing: Water Me Plz</p>
-          <p class="hero-subtitle">The automated watering system for busy Plant Parents</p>
-          <div class="btn-row">
-            <a class="cta-btn" href="project.html">Learn more</a>
-          </div>
+                    <div class="img-placeholder"><img src="images/member_sam.jpg" alt="profile picture of sam" >
+                        <p>Sam - Web Developer</p>
+                    </div>
+                </div>
+            </div>
 
         </div>
-        <div class="hero-img-section">
-          <img src="images/watermeplz.png" alt="Water Me Plz app">
-        </div>
+    
 
-        </div>
-      </div>
+        <footer>
+            <div>
+                <p>COSC2196 - Intro to IT - Assessment 3</p>
+            </div>
+        </footer>
 
-    </div>
-
-    <footer>
-      <div>
-        <p>COSC2196 - Intro to IT - Assessment 3</p>
-      </div>
-
-    </footer>
-
-  </body>
+    </body>
 </html>
