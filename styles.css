@@ -321,6 +321,26 @@ body {
     padding: 1px 65px;
   }
 
+/* Reference section */
+
+.reference-block {
+    font-size: 9pt;
+    text-align: left;
+    line-height: normal;
+}
+
+/* image styling */
+
+.img-500 {
+  width: 500px;
+  margin: 20px 20px 1px 20px;
+}
+
+.img-caption {
+  font-size: 9pt;
+  margin-top: -3px;
+}
+
 /* Table styling */
 
 table {
