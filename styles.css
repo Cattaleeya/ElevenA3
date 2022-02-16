@@ -227,11 +227,13 @@ body {
     background-size: cover;
     color: #2d5b6b;
     display: flex;
+    align-items: center;
   }
   
   .home-section {
     font-family: 'Montserrat', sans-serif;
     width: min-content;
+    height: max-content
     padding: 10px;
     backdrop-filter: blur(12px);
     background-image: linear-gradient(140deg, #ffffff94, #bfe59c4a, #00305a7a);
