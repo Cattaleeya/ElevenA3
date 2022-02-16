@@ -321,6 +321,49 @@ body {
     padding: 1px 65px;
   }
 
+/* Table styling */
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+thead {
+    background-color: #00305a;
+    color: white;
+}
+
+.light-bg {
+  background: ghostwhite;
+}
+
+.dark-bg {
+    background-color: #eeebf1;
+}
+
+.center-align {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inline-table {
+  display: inline-table;
+}
+
+.inline-table-1 {
+  width: 35%;
+}
+.inline-table-2 {
+  width: 25%
+}
+.inline-table-3{
+  width: 35%;
+}
+
 /* project */
 .p-img {
   width:40%;
