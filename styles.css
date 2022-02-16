@@ -321,8 +321,17 @@ body {
     padding: 1px 65px;
   }
 
+/* project */
+.p-img {
+  width:40%;
+  border-radius:20px;
+}
 
-  /* Footer Section */
+.p-img:hover{
+  border: 1px solid black;
+} 
+
+/* Footer Section */
 
 footer{
     color: white;
